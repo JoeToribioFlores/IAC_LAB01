@@ -1,8 +1,6 @@
-# iac-lab01-martes
+# iac-lab01
 
-Tenemos código de una aplicación web.
-Se compone por un archivo HTML que tiene como contenido: WEB01
-
+Tenemos código de una aplicación web. Se compone por un archivo HTML que tiene como contenido: WEB01
 Quiero poder publicar esta web, especificamente una sola copia como primera instancia
 
 TAREA:
