@@ -8,15 +8,15 @@ on:
 
 env:
   Nombre: "Joe Toribio"
-
+  
 jobs:
   saludo:
     runs-on: ubuntu-latest
     steps:
       - name: Saludo desde main
         if: github.ref == 'refs/heads/main'
-        run: echo "Hola desde main, Soy Joe Toribio"
+        run: echo "Hola desde main, Soy $Nombre"
 
-      - name: Saludo desde develop
+      - name: Saludo desde Develop
         if: github.ref == 'refs/heads/develop'
-        run: echo "Hola desde Develop, Soy Joe Toribio"
+        run: echo "Hola desde Develop, Soy $<Nombre"
